@@ -1,0 +1,27 @@
+---
+abstract: 'MANIFEST.SKIP Manangement for Modules'
+author:
+  - 'Ingy döt Net'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Module::Manifest::Skip
+name: Module-Manifest-Skip
+no_index:
+  directory:
+    - inc
+    - share
+    - t
+requires:
+  Moo: 0.009008
+  perl: 5.8.3
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.10
