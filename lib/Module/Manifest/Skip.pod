@@ -8,7 +8,7 @@ Module::Manifest::Skip - MANIFEST.SKIP Manangement for Modules
 
 From the command line:
 
-    > perl -MModule::Manifest::Skip\ create -e1
+    > perl -MModule::Manifest::Skip=create
 
 From Perl:
 
@@ -55,7 +55,7 @@ in your F<Makefile.PL>, and everything would be taken care of for you.
 If you want to simply create a F<MANIFEST.SKIP> file from the command line,
 this handy syntax exists:
 
-    > perl -MModule::Manifest::Skip\ create -e1
+    > perl -MModule::Manifest::Skip=create
 
 =head1 BEHAVIOR
 
