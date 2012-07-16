@@ -3,11 +3,12 @@ abstract: 'MANIFEST.SKIP Manangement for Modules'
 author:
   - 'Ingy döt Net'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
 distribution_type: module
-generated_by: 'Module::Install version 1.01'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,10 +21,13 @@ no_index:
     - share
     - t
 requires:
-  Moo: 0.009008
+  Moo: 0.091013
   perl: 5.8.3
 resources:
-  homepage: http://github.com/ingydotnet/module-manifest-skip-pm/tree
+  homepage: https://github.com/ingydotnet/module-manifest-skip-pm/tree
   license: http://dev.perl.org/licenses/
-  repository: git://github.com/ingydotnet/module-manifest-skip-pm.git
-version: 0.16
+  repository:
+    type: git
+    url: git://github.com/ingydotnet/module-manifest-skip-pm.git
+    web: https://github.com/ingydotnet/module-manifest-skip-pm/tree
+version: 0.17
