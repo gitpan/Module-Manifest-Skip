@@ -1,40 +1,28 @@
----
-version: 0.17
-date:    Sun Jul 15 16:59:21 PDT 2012
-changes:
-- added ^old/ and ^Old/
----
-version: 0.16
-date:    Fri Oct  7 21:08:15 EDT 2011
-changes:
-- Altered the match for Mac OSX .DS_Store so we find those more aggressively (jnap++)
----
-version: 0.15
-date:    Wed Jun 15 11:32:27 EST 2011
-changes:
-- Fixed bug in test on Win32. Need to close file before unlink.
----
-version: 0.14
-date:    Sun Jun 12 12:08:33 EST 2011
-changes:
-- Left debugging code (Test::Differences) in test.
----
-version: 0.13
-date:    Sun Jun 12 03:38:24 EST 2011
-changes:
-- csjewell++ added Mercurial files
----
-version: 0.12
-date:    Sat Jun 11 12:33:55 EST 2011
-changes:
-- add dist.ini and .ttc$ and .pmc$
----
-version: 0.11
-date:    Sun Jun  5 12:36:53 EST 2011
-changes:
-- No longer require -e1 on command line usage.
----
-version: 0.10
-date:    Sun Jun  5 00:35:36 EST 2011
-changes:
-- Initial version.
+0.18 Thu Jul 24 23:21:33 PDT 2014
+ - Switch to Zilla::Dist
+
+0.17 Sun Jul 15 16:59:21 PDT 2012
+ - added ^old/ and ^Old/
+
+0.16 Fri Oct  7 21:08:15 EDT 2011
+ - Altered the match for Mac OSX .DS_Store so we find those more
+   aggressively (jnap++)
+
+0.15 Wed Jun 15 11:32:27 EST 2011
+ - Fixed bug in test on Win32. Need to close file before unlink.
+
+0.14 Sun Jun 12 12:08:33 EST 2011
+ - Left debugging code (Test::Differences) in test.
+
+0.13 Sun Jun 12 03:38:24 EST 2011
+ - csjewell++ added Mercurial files
+
+0.12 Sat Jun 11 12:33:55 EST 2011
+ - add dist.ini and .ttc$ and .pmc$
+
+0.11 Sun Jun  5 12:36:53 EST 2011
+ - No longer require -e1 on command line usage.
+
+0.10 Sun Jun  5 00:35:36 EST 2011
+ - Initial version.
+
