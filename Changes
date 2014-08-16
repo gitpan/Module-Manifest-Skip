@@ -1,3 +1,6 @@
+0.22 Sat Aug 16 02:24:02 PDT 2014
+ - Eliminate File::Basename from test/
+
 0.21 Fri Aug 15 16:06:58 PDT 2014
  - Add t/000-compile-modules.t
  - CPAN Day 2014 - 21 Release Salute!
