@@ -10,7 +10,6 @@ README
 lib/Module/Manifest/Skip.pm
 lib/Module/Manifest/Skip.pod
 share/MANIFEST.SKIP
-t/000-compile-modules.t
 t/TestModuleManifestSkip.pm
 t/create.t
 t/dir1/_
